@@ -19,11 +19,7 @@ Users can add, delete, mark tasks as completed, and filter tasks (All, Active, C
 - Light/Dark mode support
 - Task persistence using localStorage
 
----
-
-## Screenshots
-
-![Task Manager Screenshot 1](src/assets/Screen shot.png)  
+--- 
 
 ---
 
