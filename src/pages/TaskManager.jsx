@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Button from './Button';
+import Button from '../components/Button.jsx';
 
 /**
  * Custom hook for managing tasks with localStorage persistence
@@ -125,8 +125,9 @@ const TaskManager = () => {
           filteredTasks.map((task) => (
             <li
               key={task.id}
-              className="flex items-center justify-between p-3 border rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 dark:border-gray-700"
+               className="flex items-center justify-between p-3 border rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 dark:border-gray-700 transition-all duration-200"
             >
+
               <div className="flex items-center gap-3">
                 <input
                   type="checkbox"
