@@ -1,18 +1,72 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Task Manager
 
-Currently, two official plugins are available:
+**Author:** Patience Lagat  
+**Year:** 2025
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple React Task Manager application built with **React**, **Vite**, and **Tailwind CSS**.  
+Users can add, delete, mark tasks as completed, and filter tasks (All, Active, Completed). Tasks are saved in **localStorage**, so they persist between sessions.
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Features
 
-Note: This will impact Vite dev & build performances.
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Filter tasks (All, Active, Completed)
+- Light/Dark mode support
+- Task persistence using localStorage
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshots
+
+![Task Manager Screenshot 1](./path-to-screenshot1.png)  
+![Task Manager Screenshot 2](./path-to-screenshot2.png)  
+
+*(Replace `path-to-screenshotX.png` with your actual screenshots stored in `src/assets` or project folder)*
+
+---
+
+## Live Demo
+
+[View Live Site](hhttps://lagat-task-manager.netlify.app/)  
+
+
+---
+
+## Project Structure
+
+src/
+├─ components/ # Reusable UI components (Button, Layout, Navbar, Footer)
+├─ pages/ # Pages (TaskManager, Posts)
+├─ hooks/ # Custom hooks (useLocalStorageTasks)
+├─ assets/ # Images, icons
+├─ index.css # Global styles including Tailwind
+├─ main.jsx # App entry point
+
+---
+
+## Setup Instructions
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-master-front-end-development-lagatpatience.git
+cd react-js-jsx-and-css-master-front-end-development-lagatpatience
+Navigate to the project folder
+
+cd react-js-jsx-and-css-master-front-end-development-lagatpatience
+
+
+Install dependencies
+
+npm install
+
+
+Run the development server
+
+npm run dev
+
+
