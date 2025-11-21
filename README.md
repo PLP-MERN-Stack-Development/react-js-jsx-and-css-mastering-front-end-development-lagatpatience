@@ -23,16 +23,13 @@ Users can add, delete, mark tasks as completed, and filter tasks (All, Active, C
 
 ## Screenshots
 
-![Task Manager Screenshot 1](./path-to-screenshot1.png)  
-![Task Manager Screenshot 2](./path-to-screenshot2.png)  
-
-*(Replace `path-to-screenshotX.png` with your actual screenshots stored in `src/assets` or project folder)*
+![Task Manager Screenshot 1](src/assets/Screen shot.png)  
 
 ---
 
 ## Live Demo
 
-[View Live Site](hhttps://lagat-task-manager.netlify.app/)  
+[View Live Site](https://lagat-task-manager.netlify.app/)  
 
 
 ---
